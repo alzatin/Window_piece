@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.1853116994022203,
-      "y": 0.3819875776397516,
+      "x": 0.08710503842869342,
+      "y": 0.34782608695652173,
       "uniqueID": "id-2937",
       "ioValues": [
         {
@@ -32,8 +32,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2621690862510675,
-      "y": 0.6055900621118013,
+      "x": 0.17933390264731,
+      "y": 0.5279503105590062,
       "uniqueID": "id-2940",
       "ioValues": [
         {
@@ -56,8 +56,8 @@
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.34927412467976093,
-      "y": 0.3105590062111801,
+      "x": 0.27241673783091375,
+      "y": 0.45962732919254656,
       "uniqueID": "id-2946",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -135,8 +135,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5294619982920581,
-      "y": 0.531055900621118,
+      "x": 0.4748078565328779,
+      "y": 0.5527950310559007,
       "uniqueID": "id-2992",
       "ioValues": [
         {
@@ -159,8 +159,8 @@
     },
     {
       "atomType": "Loft",
-      "x": 0.6148590947907772,
-      "y": 0.34782608695652173,
+      "x": 0.5508112724167378,
+      "y": 0.2701863354037267,
       "uniqueID": "id-2998",
       "ioValues": [
         {
@@ -176,14 +176,44 @@
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "Shape 4",
+          "name": "Shape 5",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 6",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50",
-            "dimension": "2D",
+            "geometry": [
+              {
+                "geometry": "f56d8848-1.1-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1",
+                "dimension": "2D",
+                "tags": [],
+                "color": "#aad7f2",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "bom": [
+                  []
+                ]
+              }
+            ],
             "tags": [],
             "color": "#aad7f2",
             "plane": {
@@ -205,11 +235,41 @@
             },
             "bom": [
               []
-            ]
+            ],
+            "dimension": "2D"
           }
         },
         {
           "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50-0-0-0",
+            "dimension": "2D",
+            "tags": [],
+            "color": "#aad7f2",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                3
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "bom": [
+              []
+            ]
+          }
+        },
+        {
+          "name": "Shape 3",
           "ioValue": {
             "geometry": [
               {
@@ -265,7 +325,7 @@
           }
         },
         {
-          "name": "Shape 3",
+          "name": "Shape 5",
           "ioValue": {
             "geometry": [
               {
@@ -321,7 +381,7 @@
           }
         },
         {
-          "name": "Shape 4",
+          "name": "Shape 6",
           "ioValue": null
         }
       ],
@@ -329,8 +389,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5217762596071733,
-      "y": 0.7981366459627329,
+      "x": 0.5345858240819812,
+      "y": 0.813664596273292,
       "uniqueID": "id-3043",
       "ioValues": [
         {
@@ -369,8 +429,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6780529461998291,
-      "y": 0.2267080745341615,
+      "x": 0.6831767719897524,
+      "y": 0.24223602484472048,
       "uniqueID": "id-3095",
       "ioValues": [
         {
@@ -385,8 +445,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.77198975234842,
-      "y": 0.20496894409937888,
+      "x": 0.7754056362083689,
+      "y": 0.15838509316770186,
       "uniqueID": "id-3184",
       "ioValues": [
         {
@@ -409,14 +469,14 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.8010247651579846,
-      "y": 0.5372670807453416,
+      "x": 0.8001707941929974,
+      "y": 0.5248447204968945,
       "uniqueID": "id-3198",
       "ioValues": [
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-cut-loft-shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50-move-f56d8848-0.95-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-move-f56d8848-0.8-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,10],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-f56d8848-0.8-{\"geometry\":[{\"geometry\":\"move-f56d8848-0.8-{\\\"geometry\\\":\\\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"color\\\":\\\"#aad7f2\\\",\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"bom\\\":[[]]}-1-0-0-0\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}],\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[[]],\"nonReplicadSerialized\":{}}-1-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--30-0-100-0",
+            "geometry": "move-cut-loft-f56d8848-1.1-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-move-shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50-0-0-0-move-f56d8848-0.95-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-move-f56d8848-0.8-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,10],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-f56d8848-0.8-{\"geometry\":[{\"geometry\":\"move-f56d8848-0.8-{\\\"geometry\\\":\\\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"color\\\":\\\"#aad7f2\\\",\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"bom\\\":[[]]}-1-0-0-0\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}],\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[[]],\"nonReplicadSerialized\":{}}-1-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--30-0-100-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -443,7 +503,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "cut-loft-shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50-move-f56d8848-0.95-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-move-f56d8848-0.8-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,10],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-f56d8848-0.8-{\"geometry\":[{\"geometry\":\"move-f56d8848-0.8-{\\\"geometry\\\":\\\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"color\\\":\\\"#aad7f2\\\",\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"bom\\\":[[]]}-1-0-0-0\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}],\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[[]],\"nonReplicadSerialized\":{}}-1-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--30",
+            "geometry": "cut-loft-f56d8848-1.1-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-move-shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50-0-0-0-move-f56d8848-0.95-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-move-f56d8848-0.8-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,10],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-f56d8848-0.8-{\"geometry\":[{\"geometry\":\"move-f56d8848-0.8-{\\\"geometry\\\":\\\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"color\\\":\\\"#aad7f2\\\",\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"bom\\\":[[]]}-1-0-0-0\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}],\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[[]],\"nonReplicadSerialized\":{}}-1-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--30",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -470,7 +530,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-move-cut-loft-shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50-move-f56d8848-0.95-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-move-f56d8848-0.8-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,10],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-f56d8848-0.8-{\"geometry\":[{\"geometry\":\"move-f56d8848-0.8-{\\\"geometry\\\":\\\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"color\\\":\\\"#aad7f2\\\",\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"bom\\\":[[]]}-1-0-0-0\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}],\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[[]],\"nonReplicadSerialized\":{}}-1-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--30-0-100-0-0-100-0",
+            "geometry": "move-move-cut-loft-f56d8848-1.1-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-move-shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50-0-0-0-move-f56d8848-0.95-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-move-f56d8848-0.8-{\"geometry\":\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,10],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-f56d8848-0.8-{\"geometry\":[{\"geometry\":\"move-f56d8848-0.8-{\\\"geometry\\\":\\\"shrinkWrap-fuse-circle-50-move-circle-50-110-0-0-50\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"color\\\":\\\"#aad7f2\\\",\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"bom\\\":[[]]}-1-0-0-0\",\"dimension\":\"2D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}],\"plane\":{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[[]],\"nonReplicadSerialized\":{}}-1-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--30-0-100-0-0-100-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -523,8 +583,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.44918872758326217,
-      "y": 0.5186335403726707,
+      "x": 0.3774551665243382,
+      "y": 0.5869565217391304,
       "uniqueID": "id-2962",
       "name": "Scale",
       "ioValues": [
@@ -983,8 +1043,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.637062339880444,
-      "y": 0.8291925465838509,
+      "x": 0.6490179333902647,
+      "y": 0.8260869565217391,
       "uniqueID": "id-3061",
       "name": "Scale",
       "ioValues": [
@@ -994,7 +1054,8 @@
         },
         {
           "name": "Scale Factor",
-          "ioValue": 0.8
+          "ioValue": 0.8,
+          "currentEquation": "0.8"
         }
       ],
       "topLevel": false,
@@ -1752,6 +1813,262 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.3518360375747224,
+      "y": 0.2267080745341615,
+      "uniqueID": "id-3402",
+      "name": "Scale",
+      "ioValues": [
+        {
+          "name": "Geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Scale Factor",
+          "ioValue": 1.1,
+          "currentEquation": "1.1"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-3403",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-3404",
+          "name": "Geometry",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-3405",
+          "name": "Scale Factor",
+          "type": "number"
+        },
+        {
+          "atomType": "Code",
+          "x": 0.5359160613397901,
+          "y": 0.6739130434782609,
+          "uniqueID": "id-3406",
+          "ioValues": [
+            {
+              "name": "scaleFactor",
+              "ioValue": 1.1
+            }
+          ],
+          "codeVersion": 1,
+          "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.2832214765100671,
+          "y": 0.27639751552795033,
+          "uniqueID": "id-3407",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.4154362416107382,
+          "y": 0.2546583850931677,
+          "uniqueID": "id-3408",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Code",
+          "x": 0.514765100671141,
+          "y": 0.453416149068323,
+          "uniqueID": "id-3409",
+          "ioValues": [
+            {
+              "name": "scaleFactor",
+              "ioValue": 3
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "codeVersion": 1,
+          "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7304277643260694,
+          "y": 0.3726708074534162,
+          "uniqueID": "id-3410",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6263115415657788,
+          "y": 0.2732919254658385,
+          "uniqueID": "id-3411",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 30
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.8175948345439871,
+          "y": 0.2981366459627329,
+          "uniqueID": "id-3412",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "Readme text here",
+          "global": true
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "inputShape",
+          "ap1ID": "id-3404",
+          "ap2ID": "id-3406"
+        },
+        {
+          "ap2Name": "scaleFactor",
+          "ap1ID": "id-3405",
+          "ap2ID": "id-3406"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-3406",
+          "ap2ID": "id-3403"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3407",
+          "ap2ID": "id-3408"
+        },
+        {
+          "ap2Name": "inputShape",
+          "ap1ID": "id-3408",
+          "ap2ID": "id-3409"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3408",
+          "ap2ID": "id-3411"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-3409",
+          "ap2ID": "id-3410"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-3411",
+          "ap2ID": "id-3410"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-04-07T18:23:39.244Z",
+        "privateRepo": false,
+        "repoName": "Scale",
+        "dateCreated": "2025-06-26T17:06:11Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/alzatin/Scale/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "4b6bc40a-44a9-438a-9ed9-ba4910815d8d",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/alzatin/Scale",
+        "topics": [],
+        "parentRepo": "BarbourSmith/Scale",
+        "forks": 0,
+        "dateModified": "739564",
+        "ranking": 1.8,
+        "searchField": "scale alzatin scales the input 2d or 3d geometry by the scale factor ",
+        "owner": "alzatin",
+        "description": "Scales the input 2D or 3D geometry by the scale factor",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Scale/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Scale/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Move",
+      "x": 0.39453458582408196,
+      "y": 0.41304347826086957,
+      "uniqueID": "id-3442",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 3,
+          "currentEquation": "3"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1776,17 +2093,22 @@
       "ap2ID": "id-2962"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-2946",
-      "ap2ID": "id-2998"
-    },
-    {
       "ap2Name": "Geometry",
       "ap1ID": "id-2946",
       "ap2ID": "id-3003"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "Geometry",
+      "ap1ID": "id-2946",
+      "ap2ID": "id-3402"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2946",
+      "ap2ID": "id-3442"
+    },
+    {
+      "ap2Name": "Shape 3",
       "ap1ID": "id-2992",
       "ap2ID": "id-2998"
     },
@@ -1796,14 +2118,14 @@
       "ap2ID": "id-3095"
     },
     {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-3043",
-      "ap2ID": "id-2998"
-    },
-    {
       "ap2Name": "Geometry",
       "ap1ID": "id-3043",
       "ap2ID": "id-3061"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-3043",
+      "ap2ID": "id-2998"
     },
     {
       "ap2Name": "geometry2",
@@ -1859,6 +2181,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-3061",
       "ap2ID": "id-3091"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-3402",
+      "ap2ID": "id-2998"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-3442",
+      "ap2ID": "id-2998"
     }
   ],
   "unitsKey": "MM",
